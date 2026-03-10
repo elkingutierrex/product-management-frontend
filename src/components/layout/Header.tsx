@@ -16,7 +16,7 @@ export default function Header() {
             <span
               className="transition-colors hover:text-foreground/80 text-foreground"
             >
-              Catálogo V0.0.3
+              Catálogo V1.0.3
             </span>
           </nav>
         </div>
