@@ -13,12 +13,11 @@ export default function Header() {
         </Link>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            <Link
-              to="/products"
+            <span
               className="transition-colors hover:text-foreground/80 text-foreground"
             >
               Catálogo V0.0.1
-            </Link>
+            </span>
           </nav>
         </div>
       </div>
