@@ -17,7 +17,7 @@ export default function Header() {
               to="/products"
               className="transition-colors hover:text-foreground/80 text-foreground"
             >
-              Catálogo
+              Catálogo V0.0.1
             </Link>
           </nav>
         </div>
