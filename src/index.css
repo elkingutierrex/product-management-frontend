@@ -5,6 +5,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+.txt-logo {
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: .3px black;
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+
 @theme {
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
