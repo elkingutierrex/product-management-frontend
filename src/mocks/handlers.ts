@@ -15,9 +15,6 @@ export interface Product {
 const timeOut = 500;
 const STORAGE_KEY = 'products';
 
-/**
- * Initial mock data (only used first time)
- */
 const initialProducts: Product[] = [
   {
     id: '1',
